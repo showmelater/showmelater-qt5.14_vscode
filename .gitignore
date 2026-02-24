@@ -1,0 +1,100 @@
+# -----------------------------
+# OS / Editor
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+.idea/
+*.swp
+*.swo
+*~
+
+# -----------------------------
+# Build directories (CMake)
+# -----------------------------
+build/
+build-*/
+cmake-build-*/
+out/
+
+# -----------------------------
+# CMake generated files
+# -----------------------------
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+install_manifest.txt
+Makefile
+compile_commands.json
+CMakeUserPresets.json
+
+# CMake package / config artifacts
+*.cmake.user
+*.dir/
+
+# -----------------------------
+# Build artifacts
+# -----------------------------
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# Debug symbols / maps
+*.dSYM/
+*.pdb
+*.idb
+*.ilk
+*.map
+
+# -----------------------------
+# Qt generated files (qmake / moc / uic / rcc)
+# -----------------------------
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.moc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+
+# Qt tools cache/temp
+.qmake.stash
+qmake_qt5.stash
+
+# -----------------------------
+# Test / coverage / logs
+# -----------------------------
+Testing/
+coverage/
+*.gcno
+*.gcda
+*.gcov
+*.profraw
+*.profdata
+
+*.log
+
+# -----------------------------
+# Runtime temp
+# -----------------------------
+*.tmp
+*.temp
+.cache/
